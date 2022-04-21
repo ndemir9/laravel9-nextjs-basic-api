@@ -20,3 +20,12 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 Route::apiResource('/customers', \App\Http\Controllers\api\CustomerController::class);
+
+
+Route::get('/test', function () {
+    Customer::factory(10)->create();
+
+    return response([
+        'message' => 'Fake customer add.'
+    ], 200);
+});
