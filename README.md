@@ -2,13 +2,13 @@
 
 
 # backend
-# ---------
-# composer install
-# npm install
-# php artisan serve
+$  ---------
+$ composer install
+$ npm install
+$ php artisan serve
 
 # frontend
-# ---------
-# npm install
-# npm run dev
+$ ---------
+$ npm install
+$ npm run dev
 
