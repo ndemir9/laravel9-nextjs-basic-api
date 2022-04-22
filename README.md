@@ -1,22 +1,18 @@
-$ laravel9-nextjs-basic-api
+
 
 
 $ backend
 
-$  ---------
+composer install
 
-$ composer install
+npm install
 
-$ npm install
-
-$ php artisan serve
+php artisan serve
 
 
 $ frontend
 
-$ ---------
+npm install
 
-$ npm install
-
-$ npm run dev
+npm run dev
 
